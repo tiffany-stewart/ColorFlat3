@@ -1,0 +1,152 @@
+/*
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+/*
+.vidContain {
+  height: 600px;
+  position: relative;
+  z-index: -1;
+}
+*/
+video#bgvideo {
+  position: absolute;;
+  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  background-size: cover;
+  z-index: -1;
+  margin: 0;
+  top: 0;
+}
+
+nav {
+  height: 400px;
+}
+
+.logo h2 {
+  font-weight: 300;
+  padding-left: 30px;
+  padding-top: 10px;
+  margin: 0;
+  color: #202126;
+}
+
+nav ul {
+  float: right;
+  margin-right: 40px;
+
+}
+
+nav li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #B5BA91;
+  font-weight: 300;
+}
+
+nav a:hover {
+  color: #202126;
+  transition: 1s;
+}
+
+nav .logo {
+  float: left;
+}
+
+.splash i {
+
+}
+
+.splash h1 {
+  color: #913224;
+  text-align: center;
+  clear: both;
+  padding-top: 195px;
+  font-size: 80px;
+}
+
+/* aboutFlat section */
+
+#aboutFlat {
+  position: relative;
+  padding-top: 90px;
+  padding-left: 45px;
+}
+
+
+.feature {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+
+}
+
+.feature h1 {
+  font-size: 80px;
+  padding-bottom: 0;
+}
+
+.feature h2 {
+  font-weight: 100;
+  margin-top: -30px;
+}
+
+.feature p {
+  width: 50px;
+  display: inline;
+  font-size: 12px;
+}
+
+.feature i {
+  color: #202126;
+}
+
+/* recent works section */
+
+#recentWorks {
+  margin-top: 50px;
+  height: 600px;
+  background-color: #202126;
+  text-align: center;
+}
+
+#recentWorks h1 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#recentWorks ul {
+  display: inline-block;
+
+}
+
+#recentWorks li {
+  display: inline;
+  padding-right: 20px;
+
+}
+
+#recentWorks a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+}
